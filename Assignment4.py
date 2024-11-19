@@ -40,3 +40,5 @@ def main():
     print("Original Text")
     print("-" * 40)
     output_text(original_text)
+
+    altered_text = alter_text(original_text)
