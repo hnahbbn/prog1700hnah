@@ -23,3 +23,7 @@ def alter_text(text_list):
     altered_text.pop(line_to_omit)
 
     return altered_text
+
+def output_text(text_list):
+    for line in text_list:
+        print(line)
