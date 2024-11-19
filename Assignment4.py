@@ -35,4 +35,8 @@ def save_to_file(file_path, text_list):
 
 def main():
     original_text = read_file('ateam_Original.txt')
+
+    print("-" * 40)
+    print("Original Text")
+    print("-" * 40)
     
