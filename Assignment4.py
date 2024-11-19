@@ -13,3 +13,8 @@ def alter_text(text_list):
         line_with_number = f"{i + 1}: {line}"
 
         if len(line) > 20:
+            line_with_number = line_with_number.lower()
+        else:
+            line_with_number = line_with_number.upper()
+        
+        altered_text.append(line_with_number)
