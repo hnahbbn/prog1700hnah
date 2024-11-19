@@ -11,3 +11,5 @@ def alter_text(text_list):
         line = line.strip
 
         line_with_number = f"{i + 1}: {line}"
+
+        if len(line) > 20:
