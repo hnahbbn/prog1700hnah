@@ -47,3 +47,5 @@ def main():
     print("Altered Text")
     print("-" * 40)
     output_text(altered_text)
+
+    save_to_file('altered_ateam_text.txt', altered_text)
