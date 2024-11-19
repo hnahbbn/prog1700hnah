@@ -27,3 +27,8 @@ def alter_text(text_list):
 def output_text(text_list):
     for line in text_list:
         print(line)
+
+def save_to_file(file_path, text_list):
+    with open(file_path, 'w') as file:
+        for line in text_list:
+            file.write(line + '\n')
