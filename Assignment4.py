@@ -49,3 +49,6 @@ def main():
     output_text(altered_text)
 
     save_to_file('altered_ateam_text.txt', altered_text)
+
+if __name__ == "__main__":
+    main()
