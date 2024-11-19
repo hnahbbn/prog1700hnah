@@ -39,4 +39,4 @@ def main():
     print("-" * 40)
     print("Original Text")
     print("-" * 40)
-    
+    output_text(original_text)
