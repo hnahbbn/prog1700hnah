@@ -19,6 +19,7 @@ def alter_text(text_list):
         
         altered_text.append(line_with_number)
 
-        line_to_omit = random.choice(range(len(altered_text)))
-        altered_text.pop(line_to_omit)
-        
+    line_to_omit = random.choice(range(len(altered_text)))
+    altered_text.pop(line_to_omit)
+
+    return altered_text
