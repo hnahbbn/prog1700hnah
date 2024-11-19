@@ -6,3 +6,6 @@ def read_file(file_path):
     
 def alter_text(text_list):
     altered_text = []
+
+    for i, line in enumerate(text_list):
+        line = line.strip
