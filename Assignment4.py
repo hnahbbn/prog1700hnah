@@ -32,3 +32,7 @@ def save_to_file(file_path, text_list):
     with open(file_path, 'w') as file:
         for line in text_list:
             file.write(line + '\n')
+
+def main():
+    original_text = read_file('ateam_Original.txt')
+    
